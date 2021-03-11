@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotEnvGenerator.SourceGenerator", "DotEnvGenerator.SourceGenerator\DotEnvGenerator.SourceGenerator.csproj", "{389F1107-44D7-4D13-95B0-F39AAD318DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotEnvGenerator.Sample", "SourceGenerator.Sample\DotEnvGenerator.Sample.csproj", "{CC285EA9-FB3D-4BD4-9938-74601A06298D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{389F1107-44D7-4D13-95B0-F39AAD318DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389F1107-44D7-4D13-95B0-F39AAD318DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389F1107-44D7-4D13-95B0-F39AAD318DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389F1107-44D7-4D13-95B0-F39AAD318DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC285EA9-FB3D-4BD4-9938-74601A06298D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC285EA9-FB3D-4BD4-9938-74601A06298D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC285EA9-FB3D-4BD4-9938-74601A06298D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC285EA9-FB3D-4BD4-9938-74601A06298D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3B02D09-676D-494A-99FE-E7E79F9DBCFF}
+	EndGlobalSection
+EndGlobal
