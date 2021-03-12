@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotEnvGenerator.SourceGenerator", "DotEnvGenerator.SourceGenerator\DotEnvGenerator.SourceGenerator.csproj", "{389F1107-44D7-4D13-95B0-F39AAD318DF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotEnvGenerator.SourceGenerator", "DotEnvGenerator.SourceGenerator\DotEnvGenerator.SourceGenerator.csproj", "{389F1107-44D7-4D13-95B0-F39AAD318DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotEnvGenerator.Sample", "SourceGenerator.Sample\DotEnvGenerator.Sample.csproj", "{CC285EA9-FB3D-4BD4-9938-74601A06298D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotEnvGenerator.Sample", "SourceGenerator.Sample\DotEnvGenerator.Sample.csproj", "{CC285EA9-FB3D-4BD4-9938-74601A06298D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2947FF8C-7992-47FF-B141-8CCEBB3ADA88}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

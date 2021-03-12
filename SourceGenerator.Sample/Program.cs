@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DotEnvConfig;
+using System;
 
 namespace SourceGenerator.Sample
 {
@@ -6,7 +7,13 @@ namespace SourceGenerator.Sample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var config = new Config();
+            Console.WriteLine("A String: " + config.A_String);
+            Console.WriteLine("An int: " + config.An_Integer);
+            Console.WriteLine("A boolean: " + config.A_Bool);
+            Console.WriteLine("A double: " + config.A_Double);
+        
+
         }
     }
 }

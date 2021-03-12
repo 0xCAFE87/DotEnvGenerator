@@ -2,10 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+  <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="3.9.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" GeneratePathProperty="true" PrivateAssets="all" />
   </ItemGroup>
-
+   <PropertyGroup>
+    <GetTargetPathDependsOn>$(GetTargetPathDependsOn);GetDependencyTargetPaths</GetTargetPathDependsOn>
+  </PropertyGroup>
+  
+  <Target Name="GetDependencyTargetPaths">
+    <ItemGroup>
+      <TargetPathWithTargetPlatformMoniker Include="$(PKGNewtonsoft_Json)\lib\netstandard2.0\Newtonsoft.Json.dll" IncludeRuntimeDependency="false" />
+    </ItemGroup>
+  </Target>
 </Project>

@@ -1,0 +1,18 @@
+﻿[
+	{
+		"name": "A_STRING",
+		"type": "System.String"
+	},
+	{
+		"name": "A_BOOL",
+		"type": "System.Boolean"
+	},
+	{
+		"name": "AN_INTEGER",
+		"type": "System.Int32"
+	},
+	{
+		"name": "A_DOUBLE",
+		"type": "System.Double"
+	}
+]

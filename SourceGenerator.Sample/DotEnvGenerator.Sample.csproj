@@ -1,15 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference
-      Include="..\DotEnvGenerator.SourceGenerator\DotEnvGenerator.SourceGenerator.csproj"
-      ReferenceOutputAssembly="false"
-      OutputItemType="Analyzer"
-      />
+    <ProjectReference Include="..\DotEnvGenerator.SourceGenerator\DotEnvGenerator.SourceGenerator.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="config.env"></AdditionalFiles>
+    <AdditionalFiles Include="config.schema.json"></AdditionalFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="dotenv.net" Version="2.1.3" />
   </ItemGroup>
 
 </Project>
